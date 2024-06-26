@@ -35,7 +35,7 @@ After completing the executions, each `res_method_name` folder will contain 4 fi
 4. **C2_iter_1.txt**: stores information gathered during each GRASP iteration, including:
    - Graph ID
    - Value \( d \)
-   - Randomly sampled GRASP parameter \( \phi \) in the interval [0,1]
+   - Randomly sampled GRASP parameter \( φ \) in the interval [0,1]
    - GRASP iteration number
    - Initial solution obtained in the constructive phase
    - Final solution obtained after the local search
