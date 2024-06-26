@@ -9,30 +9,23 @@ The methods introduced in this paper use information from GRL to guide the searc
 ## Methods and Implementations
 The methods utilized in our research and their implementations were derived from the CogDL framework. CogDL provides a comprehensive research toolkit for Deep Learning on Graphs <https://docs.cogdl.ai/en/latest/>. The list of methods:
 
-- **Node2Vec**: Py.
-- **Hope**: Ex.
-- **SDNE**: D.
-- **SPECTRAL**: Li.
+- **Node2Vec**: From the paper “node2vec: Scalable feature learning for networks” <https://dl.acm.org/doi/10.1145/2939672.2939754>
+- **Hope**: From the paper “Grarep: Asymmetric transitivity preserving graph embedding” <https://dl.acm.org/doi/10.1145/2939672.2939751>
+- **SDNE**: From the paper  “Structural Deep Network Embedding” <https://dl.acm.org/doi/10.1145/2939672.2939753>
+- **SPECTRAL**: From the paper  “Leveraging social media networks for classiﬁcation” <https://link.springer.com/article/10.1007/s10618-010-0210-x>.
 
 ## Repository Contents
 
 - **Implementation**: Python implementation of our proposed hybrid approach.
-- **Datasets**: Example datasets used in our experiments.
-- **Results**: Detailed results and performance metrics from our experiments.
+- **Datasets**: Datasets used in our experiments.
+- **Results**: Performance metrics from our experiments.
 - **Paper**: Link to the full paper discussing our methodology, experimental setup, and findings.
 
 ## Getting Started
 
-Feel free to explore our code, datasets, and results. We encourage researchers and practitioners interested in graph drawing, machine learning, and optimization to delve into our work and contribute to advancing the state-of-the-art in dynamic graph visualization.
+Feel free to explore our code, datasets, and results and propose improvements. We encourage researchers and professionals interested in Graph Drawing, Machine Learning, and Optimization to delve into our work and contribute to advancing science.
 
----
-
-Esse texto oferece uma visão geral do seu trabalho e orienta os visitantes do seu repositório sobre o que esperar e como explorar os recursos disponíveis.
-
-
-
-
-## Operation of the Code
+## Operation of the Codes
 
 ### Input Parameters
 
