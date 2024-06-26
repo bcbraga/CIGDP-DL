@@ -1,5 +1,37 @@
-# CIGDP-DL
-Constrained Incremental Graph Drawing Problem/Embeddings
+# An Efficient Hybridization of Graph Representation Learning and Metaheuristics for the Constrained Incremental Graph Drawing Problem
+
+Welcome to the GitHub repository for our research paper titled "An Efficient Hybridization of Graph Representation Learning and Metaheuristics for the Constrained Incremental Graph Drawing Problem." This repository serves as a companion to our study, where we proposes a hybridization between metaheuristics and a less expensive learning strategy to extract the latent structure of graphs, known as Graph Representation Learning (GRL). For such, we approach the Constrained Incremental Graph Drawing Problem (C-IGDP), a visualization hierarchical graph problem proposed by Napoletano et al. (2019) <https://www.sciencedirect.com/science/article/abs/pii/S0377221718308701>.
+
+## Overview
+
+The methods introduced in this paper use information from GRL to guide the search for solutions. They are based on the literature heuristics for the C-IGDP but adapted so they use the graph embedding information. Computational experiments considered four distinct methods for generating node embeddings: two based on DL, one spectral method, and one based on matrix factorization. Stochastic node embedding strategies had two different learning GRASP versions. The approaches proved promising, particularly those involving DL, that outperformed state-of-the-art methods in denser and with more numerous layers.
+
+## Methods and Implementations
+The methods utilized in our research and their implementations were derived from the CogDL framework. CogDL provides a comprehensive research toolkit for Deep Learning on Graphs <https://docs.cogdl.ai/en/latest/>. The list of methods:
+
+- **Node2Vec**: Py.
+- **Hope**: Ex.
+- **SDNE**: D.
+- **SPECTRAL**: Li.
+
+## Repository Contents
+
+- **Implementation**: Python implementation of our proposed hybrid approach.
+- **Datasets**: Example datasets used in our experiments.
+- **Results**: Detailed results and performance metrics from our experiments.
+- **Paper**: Link to the full paper discussing our methodology, experimental setup, and findings.
+
+## Getting Started
+
+Feel free to explore our code, datasets, and results. We encourage researchers and practitioners interested in graph drawing, machine learning, and optimization to delve into our work and contribute to advancing the state-of-the-art in dynamic graph visualization.
+
+---
+
+Esse texto oferece uma visão geral do seu trabalho e orienta os visitantes do seu repositório sobre o que esperar e como explorar os recursos disponíveis.
+
+
+
+
 ## Operation of the Code
 
 ### Input Parameters
