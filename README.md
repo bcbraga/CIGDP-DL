@@ -1,10 +1,16 @@
 # An Efficient Hybridization of Graph Representation Learning and Metaheuristics for the Constrained Incremental Graph Drawing Problem
 
-Welcome to the GitHub repository for our research paper titled "An Efficient Hybridization of Graph Representation Learning and Metaheuristics for the Constrained Incremental Graph Drawing Problem." This repository serves as a companion to our study, where we proposes a hybridization between metaheuristics and a less expensive learning strategy to extract the latent structure of graphs, known as Graph Representation Learning (GRL). For such, we approach the Constrained Incremental Graph Drawing Problem (C-IGDP), a visualization hierarchical graph problem proposed by Napoletano et al. (2019) <https://www.sciencedirect.com/science/article/abs/pii/S0377221718308701>.
+Welcome to the GitHub repository for our research paper entitled "An Efficient Hybridization of Graph Representation Learning and Metaheuristics for the Constrained Incremental Graph Drawing Problem." This repository contains the codes of the Greedy Randomized Search Procedure (GRASP) heuristics introduced and implemented by Charytitsch and Nascimento (2024). The authors introduced the Graph Learning GRASP (GL-GRASP) heuristics for the Constrained Incremental Graph Drawing Problem (C-IGDP). To compare with the literature GRASP heuristics, the authors also implemented them in Python and also made them available in this repository.
 
 ## Overview
 
-The methods introduced in this paper use information from GRL to guide the search for solutions. They are based on the literature heuristics for the C-IGDP but adapted so they use the graph embedding information. Computational experiments considered four distinct methods for generating node embeddings: two based on DL, one spectral method, and one based on matrix factorization. Stochastic node embedding strategies had two different learning GRASP versions. The approaches proved promising, particularly those involving DL, that outperformed state-of-the-art methods in denser and with more numerous layers.
+The methods introduced in this paper use information from Graph Representation Learning (GRL) to guide the constructive phase of the GL-GRASP heuristics. The GRASP heuristics are based on the literature heuristics for the C-IGDP, adapted so they employ the graph embedding information in the constructive phase. Computational experiments considered four distinct methods for generating node embeddings: two based on DL, one spectral method, and one based on matrix factorization. Stochastic node embedding strategies had two different learning GRASP versions. The approaches proved promising, particularly those involving DL, that outperformed state-of-the-art methods in denser and with more numerous layers.
+
+## Cite
+
+One have to cite this repository and the follwoing paper for any use of the resources of this repository.
+
+Bruna Cristina Braga Charytitsch and Mariá Cristina Vasconcelos Nascimento (2024) An Efficient Hybridization of Graph Representation Learning and Metaheuristics for the Constrained Incremental Graph Drawing Problem. Submitted to European Journal of Operational Research.
 
 ## Methods and Implementations
 The methods utilized in our research and their implementations were derived from the CogDL framework. CogDL provides a comprehensive research toolkit for Deep Learning on Graphs <https://docs.cogdl.ai/en/latest/>. The list of methods:
