@@ -10,7 +10,7 @@ The methods introduced in this paper use information from Graph Representation L
 
 One have to cite this repository and the follwoing paper for any use of the resources of this repository.
 
-Bruna Cristina Braga Charytitsch and Mariá Cristina Vasconcelos Nascimento (2024) An Efficient Hybridization of Graph Representation Learning and Metaheuristics for the Constrained Incremental Graph Drawing Problem. Submitted to European Journal of Operational Research.
+- Bruna Cristina Braga Charytitsch and Mariá Cristina Vasconcelos Nascimento (2024) An Efficient Hybridization of Graph Representation Learning and Metaheuristics for the Constrained Incremental Graph Drawing Problem. Submitted to European Journal of Operational Research.
 
 ## Methods and Implementations
 The methods utilized in our research and their implementations were derived from the CogDL framework. CogDL provides a comprehensive research toolkit for Deep Learning on Graphs <https://docs.cogdl.ai/en/latest/>. The list of methods:
