@@ -8,7 +8,7 @@ The methods introduced in this paper use information from Graph Representation L
 
 ## Cite
 
-One have to cite this repository and the follwoing paper for any use of the resources of this repository.
+One have to cite this repository and the following paper for any use of the resources of this repository.
 
 - Bruna Cristina Braga Charytitsch and Mariá Cristina Vasconcelos Nascimento (2024) An Efficient Hybridization of Graph Representation Learning and Metaheuristics for the Constrained Incremental Graph Drawing Problem. Submitted to European Journal of Operational Research.
 
