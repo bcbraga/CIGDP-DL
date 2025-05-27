@@ -45,7 +45,7 @@ An example of input parameters can be found in the `input.txt` file. If preferre
 ### Folder and File Structure
 
 For the code execution, ensuring that the `res`, `data` folders, and `.py` files are in the same directory is important. The folder structure is as follows:
-- **`data` folder**: stores the instances presented in the paper.
+- **`data and data_extra` folder**: store the instances presented in the paper.
 - **`res_method_name` folders**: store results according to each method.
 
 ### Execution Results
