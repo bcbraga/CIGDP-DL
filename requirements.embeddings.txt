@@ -1,0 +1,6 @@
+# Extends the scientific core and adds embedding libraries (CogDL / PyTorch)
+# Used by: Cb_N2V*, Cb_N2V, Cb_Hope, Cb_sdne*, Cb_sdne, Cb_spec
+
+-r requirements.core.txt
+torch>=2.2,<3
+cogdl>=0.6
