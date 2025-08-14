@@ -1,0 +1,6 @@
+# Requires a valid Gurobi license to run (set GRB_LICENSE_FILE or run `grbgetkey`).
+
+numpy>=1.24,<3
+pandas>=1.5,<3
+networkx>=2.8,<4
+gurobipy>=10.0,<11
