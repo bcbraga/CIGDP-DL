@@ -23,7 +23,7 @@ The methods utilized in our research and their implementations were derived from
 ## Repository Contents
 
 - **Implementation**: Python implementation of our proposed hybrid approach *(requirements: `requirements.core.txt`, `requirements.embeddings.txt`)*.
-- **Exact model** — Gurobi implementation of the C-IGDP baseline (`Model_CIGDP_gurobi_10_2.py`), *(requirements: `requirements.model.txt`; requires a valid Gurobi license)*.
+- **Exact model**: Gurobi implementation of the C-IGDP baseline (`Model_CIGDP_gurobi_10_2.py`), *(requirements: `requirements.model.txt`; requires a valid Gurobi license)*.
 - **Datasets**: Datasets used in our experiments.
 - **Results**: Performance metrics from our experiments.
 - **Paper**: Link to the full paper discussing our methodology, experimental setup, and findings.
