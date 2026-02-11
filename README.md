@@ -2,6 +2,8 @@
 
 Welcome to the GitHub repository for our research paper entitled "An Efficient Hybridization of Graph Representation Learning and Metaheuristics for the Constrained Incremental Graph Drawing Problem." This repository contains the codes of the Greedy Randomized Search Procedure (GRASP) heuristics introduced and implemented by Charytitsch and Nascimento (2024). The authors introduced the Graph Learning GRASP (GL-GRASP) heuristics for the Constrained Incremental Graph Drawing Problem (C-IGDP). To compare with the literature GRASP heuristics, the authors also implemented them in Python and also made them available in this repository.
 
+Paper: <https://www.sciencedirect.com/science/article/abs/pii/S0377221725006678>
+
 ## Overview
 
 The methods introduced in this paper use information from Graph Representation Learning (GRL) to guide the constructive phase of the GL-GRASP heuristics. The GRASP heuristics are based on the literature heuristics for the C-IGDP, adapted so they employ the graph embedding information in the constructive phase. Computational experiments considered four distinct methods for generating node embeddings: two based on DL, one spectral method, and one based on matrix factorization. Stochastic node embedding strategies had two different learning GRASP versions. The approaches proved promising, particularly those involving DL, that outperformed state-of-the-art methods in denser and with more numerous layers.
@@ -10,7 +12,7 @@ The methods introduced in this paper use information from Graph Representation L
 
 One have to cite this repository and the following paper for any use of the resources of this repository.
 
-- Bruna Cristina Braga Charytitsch and Mariá Cristina Vasconcelos Nascimento (2024) An Efficient Hybridization of Graph Representation Learning and Metaheuristics for the Constrained Incremental Graph Drawing Problem. Submitted to European Journal of Operational Research.
+- Bruna Cristina Braga Charytitsch, Mariá Cristina Vasconcelos Nascimento, An efficient hybridization of Graph Representation Learning and metaheuristics for the Constrained Incremental Graph Drawing Problem, European Journal of Operational Research, Volume 330, Issue 2, 2026, Pages 381-397, ISSN 0377-2217, https://doi.org/10.1016/j.ejor.2025.08.034.
 
 ## Methods and Implementations
 The methods utilized in our research and their implementations were derived from the CogDL framework. CogDL provides a comprehensive research toolkit for Deep Learning on Graphs <https://docs.cogdl.ai/en/latest/>. The list of methods:
