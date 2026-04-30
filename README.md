@@ -8,27 +8,6 @@ Paper: <https://www.sciencedirect.com/science/article/abs/pii/S0377221725006678>
 
 The methods introduced in this paper use information from Graph Representation Learning (GRL) to guide the constructive phase of the GL-GRASP heuristics. The GRASP heuristics are based on the literature heuristics for the C-IGDP, adapted so they employ the graph embedding information in the constructive phase. Computational experiments considered four distinct methods for generating node embeddings: two based on DL, one spectral method, and one based on matrix factorization. Stochastic node embedding strategies had two different learning GRASP versions. The approaches proved promising, particularly those involving DL, that outperformed state-of-the-art methods in denser and with more numerous layers.
 
-## Cite
-
-One have to cite this repository and the following paper for any use of the resources of this repository.
-
-- Bruna Cristina Braga Charytitsch, Mariá Cristina Vasconcelos Nascimento, An efficient hybridization of Graph Representation Learning and metaheuristics for the Constrained Incremental Graph Drawing Problem, European Journal of Operational Research, Volume 330, Issue 2, 2026, Pages 381-397, ISSN 0377-2217, https://doi.org/10.1016/j.ejor.2025.08.034.
-
-@article{CHARYTITSCH2026381,
-title = {An efficient hybridization of Graph Representation Learning and metaheuristics for the Constrained Incremental Graph Drawing Problem},
-journal = {European Journal of Operational Research},
-volume = {330},
-number = {2},
-pages = {381-397},
-year = {2026},
-issn = {0377-2217},
-doi = {https://doi.org/10.1016/j.ejor.2025.08.034},
-url = {https://www.sciencedirect.com/science/article/pii/S0377221725006678},
-author = {Bruna Cristina Braga Charytitsch and Mariá Cristina Vasconcelos Nascimento},
-keywords = {Combinatorial optimization, Graph Drawing, Graph Representation Learning, Deep learning, Metaheuristics},
-abstract = {Hybridizing machine learning techniques with metaheuristics has attracted significant attention in recent years. Many attempts employ supervised or reinforcement learning to support the decision-making of heuristic methods. However, in some cases, these techniques are deemed too time-consuming and not competitive with hand-crafted heuristics. This paper proposes a hybridization between metaheuristics and a less expensive learning strategy to extract the latent structure of graphs, known as Graph Representation Learning (GRL). For such, we approach the Constrained Incremental Graph Drawing Problem (C-IGDP), a hierarchical graph visualization problem. There is limited literature on methods for this problem, for which Greedy Randomized Search Procedures (GRASP) heuristics have shown promising results. In line with this, this paper investigates the gains of incorporating GRL into the construction phase of GRASP, which we refer to as Graph Learning GRASP (GL-GRASP). In computational experiments, we first analyze the results achieved considering different node embedding techniques, where deep learning-based strategies stood out. The evaluation considered the primal integral measure that assesses the quality of the solutions according to the required time for such. According to this measure, the best GL-GRASP heuristics demonstrated superior performance than state-of-the-art literature GRASP heuristics for the problem. A scalability test on newly generated denser instances under a fixed time limit further confirmed the robustness of the GL-GRASP heuristics.}
-}
-
 ## Methods and Implementations
 The methods utilized in our research and their implementations were derived from the CogDL framework. CogDL provides a comprehensive research toolkit for Deep Learning on Graphs <https://docs.cogdl.ai/en/latest/>. The list of methods:
 
@@ -96,3 +75,24 @@ After completing the executions, each `res_method_name` folder will contain 4 fi
 - Verify the presence of all necessary files before initiating the execution.
 
 Please note that in the results files, certain lines (corresponding to specific instances) may contain only a sequence of `-1`. It is crucial to emphasize that the number of incremental nodes in each layer must be greater than or equal to the \(d\) parameter. According to this criterion, these instances are the ones that did not meet the imposed requirement.
+
+## Cite
+
+One have to cite this repository and the following paper for any use of the resources of this repository.
+
+- Bruna Cristina Braga Charytitsch, Mariá Cristina Vasconcelos Nascimento, An efficient hybridization of Graph Representation Learning and metaheuristics for the Constrained Incremental Graph Drawing Problem, European Journal of Operational Research, Volume 330, Issue 2, 2026, Pages 381-397, ISSN 0377-2217, https://doi.org/10.1016/j.ejor.2025.08.034.
+
+@article{CHARYTITSCH2026381,
+title = {An efficient hybridization of Graph Representation Learning and metaheuristics for the Constrained Incremental Graph Drawing Problem},
+journal = {European Journal of Operational Research},
+volume = {330},
+number = {2},
+pages = {381-397},
+year = {2026},
+issn = {0377-2217},
+doi = {https://doi.org/10.1016/j.ejor.2025.08.034},
+url = {https://www.sciencedirect.com/science/article/pii/S0377221725006678},
+author = {Bruna Cristina Braga Charytitsch and Mariá Cristina Vasconcelos Nascimento},
+keywords = {Combinatorial optimization, Graph Drawing, Graph Representation Learning, Deep learning, Metaheuristics},
+abstract = {Hybridizing machine learning techniques with metaheuristics has attracted significant attention in recent years. Many attempts employ supervised or reinforcement learning to support the decision-making of heuristic methods. However, in some cases, these techniques are deemed too time-consuming and not competitive with hand-crafted heuristics. This paper proposes a hybridization between metaheuristics and a less expensive learning strategy to extract the latent structure of graphs, known as Graph Representation Learning (GRL). For such, we approach the Constrained Incremental Graph Drawing Problem (C-IGDP), a hierarchical graph visualization problem. There is limited literature on methods for this problem, for which Greedy Randomized Search Procedures (GRASP) heuristics have shown promising results. In line with this, this paper investigates the gains of incorporating GRL into the construction phase of GRASP, which we refer to as Graph Learning GRASP (GL-GRASP). In computational experiments, we first analyze the results achieved considering different node embedding techniques, where deep learning-based strategies stood out. The evaluation considered the primal integral measure that assesses the quality of the solutions according to the required time for such. According to this measure, the best GL-GRASP heuristics demonstrated superior performance than state-of-the-art literature GRASP heuristics for the problem. A scalability test on newly generated denser instances under a fixed time limit further confirmed the robustness of the GL-GRASP heuristics.}
+}
