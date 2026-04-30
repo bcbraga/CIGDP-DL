@@ -76,7 +76,7 @@ After completing the executions, each `res_method_name` folder will contain 4 fi
 
 Please note that in the results files, certain lines (corresponding to specific instances) may contain only a sequence of `-1`. It is crucial to emphasize that the number of incremental nodes in each layer must be greater than or equal to the \(d\) parameter. According to this criterion, these instances are the ones that did not meet the imposed requirement.
 
-## Cite
+## Citation
 
 One have to cite this repository and the following paper for any use of the resources of this repository.
 
